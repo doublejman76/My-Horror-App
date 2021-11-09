@@ -6,6 +6,7 @@ import { GamesComponent } from './games/games.component';
 import { HeaderComponent } from './header/header.component';
 import { PlaygameComponent } from './game-console/playgame/playgame.component';
 import { GamelistComponent } from './games/gamelist/gamelist.component';
+import { GameRoutingModule } from './games/game-routing.module';
 
 
 
@@ -20,7 +21,8 @@ import { GamelistComponent } from './games/gamelist/gamelist.component';
     GamelistComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    GameRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
